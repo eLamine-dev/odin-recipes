@@ -5,16 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>main page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Odin recipes</h1>
-    <img src="./images/main-page.jpg" alt="">
-
-    <h2>Latest recipes</h2>
-    <ul>
-        <li><a href="./recipes/lasagna.html">Homemade lasagna</a></li>
-        <li><a href="./recipes/egg-salad.html">Egg Salad for Sandwiches</a></li>
-        <li><a href="./recipes/cefe-latte.html">Cafe latte</a></li>
+    <div class="menu">
+        <h1 class="logo">Odin recipes</h1>
+        <div class="pages">
+            <div><h3 class="page">Recipes</h3></div>
+            <div><h3 class="page">Blog</h3></div>
+            <div><h3 class="page">contact</h3></div>
+        </div>
+    </div>
+    
+    <div>
+        <img id="headimg" src="./images/main-page.jpg" alt="">
+    </div>
+    
+    
+    <h2 class="latest">Latest Recipes</h2>
+    <ul class="recipes">
+        <li class="recipe"><img class="preview" src="./images/lasagna.jpeg" alt=""><a href="./recipes/lasagna.html">Homemade lasagna</a></li>
+        <li class="recipe"><img class="preview" src="./images/egg-salad.jpeg" alt=""><a href="./recipes/egg-salad.html">Egg Salad for Sandwiches</a></li>
+        <li class="recipe"><img class="preview" src="./images/cafe-latte.jpeg" alt=""><a href="./recipes/cefe-latte.html">Cafe latte</a></li>
     </ul>
     
 </body>

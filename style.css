@@ -1,0 +1,82 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.menu {
+   
+    background-color:darkolivegreen;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.pages {
+    width: 100% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: right; 
+    margin-right: 30px;
+    
+}
+
+.page {
+    margin-right: 30px;
+
+}
+
+.logo {
+    width: 100% ;
+    justify-content: left;
+    margin-left: 30px;
+}
+
+#headimg {
+    width: 100%;
+    height: auto;
+    opacity: 80%;
+}
+
+.latest {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 2px solid darkolivegreen;
+    padding: 10px;
+    width: 200px;
+    border-radius: 1em;
+}
+
+.recipes {
+    
+    width: 95%;
+    display: flex;
+    align-items:stretch;
+    justify-content:space-between; 
+    
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border: 1px solid darkolivegreen;
+    padding: 10px;
+    width: 30%;
+    border-radius: 2em;
+    list-style: none;
+    margin: 10px;
+
+    
+}
+
+
+.preview {
+    width: 80%;
+    padding: 10px;
+    
+}
